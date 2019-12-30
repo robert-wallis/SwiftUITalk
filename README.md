@@ -1,2 +1,2 @@
-# SwiftUITalk
-Swift UI Talk for Work
+# SwiftUI Talk
+Swift UI Talk for Work, writtin in ... SwiftUI

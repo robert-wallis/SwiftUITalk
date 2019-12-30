@@ -31,6 +31,15 @@ struct MainView: View {
             .font(.title)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
+    {AnyView(HStack{
+        Image("OtherBindings")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding()
+        OtherBindings()
+            .font(.title)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
     ]
     @State var currentView = 0
 
