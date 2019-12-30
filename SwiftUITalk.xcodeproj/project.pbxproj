@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E102B9F823BA851700FDE3BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102B9F723BA851700FDE3BA /* AppDelegate.swift */; };
-		E102B9FA23BA851700FDE3BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102B9F923BA851700FDE3BA /* ContentView.swift */; };
+		E102B9FA23BA851700FDE3BA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102B9F923BA851700FDE3BA /* MainView.swift */; };
 		E102B9FC23BA851800FDE3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102B9FB23BA851800FDE3BA /* Assets.xcassets */; };
 		E102B9FF23BA851800FDE3BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102B9FE23BA851800FDE3BA /* Preview Assets.xcassets */; };
 		E102BA0223BA851800FDE3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102BA0023BA851800FDE3BA /* Main.storyboard */; };
+		E102BA0D23BA891D00FDE3BA /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA0C23BA891D00FDE3BA /* HelloView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E102B9F423BA851700FDE3BA /* SwiftUITalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E102B9F723BA851700FDE3BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E102B9F923BA851700FDE3BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E102B9F923BA851700FDE3BA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E102B9FB23BA851800FDE3BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E102B9FE23BA851800FDE3BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E102BA0123BA851800FDE3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E102BA0323BA851800FDE3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E102BA0423BA851800FDE3BA /* SwiftUITalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUITalk.entitlements; sourceTree = "<group>"; };
+		E102BA0C23BA891D00FDE3BA /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,13 @@
 			isa = PBXGroup;
 			children = (
 				E102B9F723BA851700FDE3BA /* AppDelegate.swift */,
-				E102B9F923BA851700FDE3BA /* ContentView.swift */,
+				E102B9F923BA851700FDE3BA /* MainView.swift */,
 				E102B9FB23BA851800FDE3BA /* Assets.xcassets */,
 				E102BA0023BA851800FDE3BA /* Main.storyboard */,
 				E102BA0323BA851800FDE3BA /* Info.plist */,
 				E102BA0423BA851800FDE3BA /* SwiftUITalk.entitlements */,
 				E102B9FD23BA851800FDE3BA /* Preview Content */,
+				E102BA0C23BA891D00FDE3BA /* HelloView.swift */,
 			);
 			path = SwiftUITalk;
 			sourceTree = "<group>";
@@ -145,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E102B9FA23BA851700FDE3BA /* ContentView.swift in Sources */,
+				E102BA0D23BA891D00FDE3BA /* HelloView.swift in Sources */,
+				E102B9FA23BA851700FDE3BA /* MainView.swift in Sources */,
 				E102B9F823BA851700FDE3BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

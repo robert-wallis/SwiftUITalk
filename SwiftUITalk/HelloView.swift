@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HelloView.swift
 //  SwiftUITalk
 //
 //  Created by Robert Wallis on 12/30/19.
@@ -8,16 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HelloView: View {
     var body: some View {
         Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
-
-struct ContentView_Previews: PreviewProvider {
+struct HelloView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HelloView()
     }
 }
