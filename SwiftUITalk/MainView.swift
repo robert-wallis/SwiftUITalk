@@ -19,6 +19,16 @@ struct MainView: View {
             .aspectRatio(contentMode: .fit)
             .padding()
         HelloView()
+            .font(.title)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
+    {AnyView(HStack{
+        Image("InputView")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding()
+        InputView()
+            .font(.title)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
     ]

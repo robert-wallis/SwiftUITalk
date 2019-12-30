@@ -13,6 +13,7 @@
 		E102B9FF23BA851800FDE3BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102B9FE23BA851800FDE3BA /* Preview Assets.xcassets */; };
 		E102BA0223BA851800FDE3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102BA0023BA851800FDE3BA /* Main.storyboard */; };
 		E102BA0D23BA891D00FDE3BA /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA0C23BA891D00FDE3BA /* HelloView.swift */; };
+		E102BA1023BAA3A200FDE3BA /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA0F23BAA3A200FDE3BA /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E102BA0323BA851800FDE3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E102BA0423BA851800FDE3BA /* SwiftUITalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUITalk.entitlements; sourceTree = "<group>"; };
 		E102BA0C23BA891D00FDE3BA /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		E102BA0F23BAA3A200FDE3BA /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		E102B9F623BA851700FDE3BA /* SwiftUITalk */ = {
 			isa = PBXGroup;
 			children = (
+				E102BA0E23BAA38A00FDE3BA /* Slides */,
 				E102B9F723BA851700FDE3BA /* AppDelegate.swift */,
 				E102B9F923BA851700FDE3BA /* MainView.swift */,
 				E102B9FB23BA851800FDE3BA /* Assets.xcassets */,
@@ -64,7 +67,6 @@
 				E102BA0323BA851800FDE3BA /* Info.plist */,
 				E102BA0423BA851800FDE3BA /* SwiftUITalk.entitlements */,
 				E102B9FD23BA851800FDE3BA /* Preview Content */,
-				E102BA0C23BA891D00FDE3BA /* HelloView.swift */,
 			);
 			path = SwiftUITalk;
 			sourceTree = "<group>";
@@ -75,6 +77,15 @@
 				E102B9FE23BA851800FDE3BA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E102BA0E23BAA38A00FDE3BA /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				E102BA0C23BA891D00FDE3BA /* HelloView.swift */,
+				E102BA0F23BAA3A200FDE3BA /* InputView.swift */,
+			);
+			path = Slides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E102BA0D23BA891D00FDE3BA /* HelloView.swift in Sources */,
+				E102BA1023BAA3A200FDE3BA /* InputView.swift in Sources */,
 				E102B9FA23BA851700FDE3BA /* MainView.swift in Sources */,
 				E102B9F823BA851700FDE3BA /* AppDelegate.swift in Sources */,
 			);
