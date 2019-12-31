@@ -16,6 +16,10 @@
 		E102BA1023BAA3A200FDE3BA /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA0F23BAA3A200FDE3BA /* InputView.swift */; };
 		E102BA1223BAA81800FDE3BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E102BA1123BAA81800FDE3BA /* README.md */; };
 		E102BA1423BAA8CD00FDE3BA /* OtherBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1323BAA8CD00FDE3BA /* OtherBindings.swift */; };
+		E102BA1623BAAED200FDE3BA /* InferComplexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1523BAAED200FDE3BA /* InferComplexType.swift */; };
+		E102BA1823BAB6FC00FDE3BA /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1723BAB6FC00FDE3BA /* VideoView.swift */; };
+		E102BA2023BACA2600FDE3BA /* FakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1F23BACA2600FDE3BA /* FakeError.swift */; };
+		E102BA2223BACF0E00FDE3BA /* View+SwiftUITalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		E102BA0F23BAA3A200FDE3BA /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		E102BA1123BAA81800FDE3BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E102BA1323BAA8CD00FDE3BA /* OtherBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherBindings.swift; sourceTree = "<group>"; };
+		E102BA1523BAAED200FDE3BA /* InferComplexType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InferComplexType.swift; sourceTree = "<group>"; };
+		E102BA1723BAB6FC00FDE3BA /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		E102BA1F23BACA2600FDE3BA /* FakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeError.swift; sourceTree = "<group>"; };
+		E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SwiftUITalk.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +74,10 @@
 			children = (
 				E102BA0E23BAA38A00FDE3BA /* Slides */,
 				E102B9F723BA851700FDE3BA /* AppDelegate.swift */,
+				E102BA1F23BACA2600FDE3BA /* FakeError.swift */,
 				E102B9F923BA851700FDE3BA /* MainView.swift */,
+				E102BA1723BAB6FC00FDE3BA /* VideoView.swift */,
+				E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */,
 				E102B9FB23BA851800FDE3BA /* Assets.xcassets */,
 				E102BA0023BA851800FDE3BA /* Main.storyboard */,
 				E102BA0323BA851800FDE3BA /* Info.plist */,
@@ -90,6 +101,7 @@
 				E102BA0C23BA891D00FDE3BA /* HelloView.swift */,
 				E102BA0F23BAA3A200FDE3BA /* InputView.swift */,
 				E102BA1323BAA8CD00FDE3BA /* OtherBindings.swift */,
+				E102BA1523BAAED200FDE3BA /* InferComplexType.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -167,9 +179,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E102BA1423BAA8CD00FDE3BA /* OtherBindings.swift in Sources */,
+				E102BA1823BAB6FC00FDE3BA /* VideoView.swift in Sources */,
 				E102BA0D23BA891D00FDE3BA /* HelloView.swift in Sources */,
+				E102BA2023BACA2600FDE3BA /* FakeError.swift in Sources */,
 				E102BA1023BAA3A200FDE3BA /* InputView.swift in Sources */,
 				E102B9FA23BA851700FDE3BA /* MainView.swift in Sources */,
+				E102BA1623BAAED200FDE3BA /* InferComplexType.swift in Sources */,
+				E102BA2223BACF0E00FDE3BA /* View+SwiftUITalk.swift in Sources */,
 				E102B9F823BA851700FDE3BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

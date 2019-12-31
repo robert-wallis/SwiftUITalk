@@ -16,15 +16,29 @@ struct OtherBindings: View {
             TextField("one", text: $one)
             HStack {
                 VStack {
+                    Text("let")
+                    OtherBindingsStateView(text: one)
+                        .padding()
+                }.padding()
+                VStack {
                     Text("@State")
                     OtherBindingsStateView(text: one)
+                        .padding()
                 }.padding()
                 VStack {
                     Text("@Binding")
                     OtherBindingsBindingView(text: $one)
+                        .padding()
                 }.padding()
             }
         }
+    }
+}
+
+struct NoBindingView: View {
+    let text: String
+    var body: some View {
+        Text(text)
     }
 }
 

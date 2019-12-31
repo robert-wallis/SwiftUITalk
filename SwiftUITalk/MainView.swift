@@ -13,6 +13,12 @@ struct MainView: View {
     typealias ViewFactory = () -> AnyView
 
     let slides:[ViewFactory] = [
+    {AnyView(VStack {
+        FakeError(text: "Unable to infer complex talk").font(.largeTitle)
+        Text("a talk about SwiftUI by Robert Wallis")
+            .padding()
+            .font(.subheadline)
+    })},
     {AnyView(HStack{
         Image("HelloWorld")
             .resizable()
@@ -40,6 +46,11 @@ struct MainView: View {
             .font(.title)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
+    {AnyView(HStack{
+        InferComplexType()
+            .font(.title)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
     ]
     @State var currentView = 0
 
@@ -53,8 +64,13 @@ struct MainView: View {
                 HStack {
                     Spacer()
                     Button("back", action: {
-                        self.currentView =
+                        let slide =
                             (self.currentView - 1) % self.slides.count
+                        if slide < 0 { // really swift? this should not happen
+                            self.currentView = self.slides.count + slide
+                        } else {
+                            self.currentView = slide
+                        }
                     })
                     Button("next", action: {
                         self.currentView =
