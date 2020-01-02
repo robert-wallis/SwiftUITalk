@@ -65,6 +65,13 @@ class MainState: ObservableObject {
             .font(.title)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
+    {AnyView(HStack{
+        Image("OpaqueReturn")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
     ]
 
     @Published var currentView = 0

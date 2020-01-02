@@ -22,6 +22,7 @@
 		E102BA2223BACF0E00FDE3BA /* View+SwiftUITalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */; };
 		E102BA2423BAD2B200FDE3BA /* ObservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */; };
 		E13E4D6823BDB7A200BB6CDE /* InstanceMemberPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */; };
+		E13E4D6A23BDBAB200BB6CDE /* OpaqueReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SwiftUITalk.swift"; sourceTree = "<group>"; };
 		E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsView.swift; sourceTree = "<group>"; };
 		E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceMemberPreview.swift; sourceTree = "<group>"; };
+		E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpaqueReturn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */,
 				E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */,
 				E102BA1523BAAED200FDE3BA /* InferComplexType.swift */,
+				E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				E102BA1023BAA3A200FDE3BA /* InputView.swift in Sources */,
 				E102B9FA23BA851700FDE3BA /* MainView.swift in Sources */,
 				E102BA1623BAAED200FDE3BA /* InferComplexType.swift in Sources */,
+				E13E4D6A23BDBAB200BB6CDE /* OpaqueReturn.swift in Sources */,
 				E102BA2223BACF0E00FDE3BA /* View+SwiftUITalk.swift in Sources */,
 				E102B9F823BA851700FDE3BA /* AppDelegate.swift in Sources */,
 				E13E4D6823BDB7A200BB6CDE /* InstanceMemberPreview.swift in Sources */,

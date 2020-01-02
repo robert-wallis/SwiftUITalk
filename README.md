@@ -21,7 +21,7 @@ Swift UI Talk for work, writtin in ... SwiftUI
 * [ ] Q: 'The compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions'
     A: put it in a func
 
-* [ ] Q: 'Function declares an opaque return type, but the return statements in its body do not have matching underlying types'
+* [x] Q: 'Function declares an opaque return type, but the return statements in its body do not have matching underlying types'
     A: Wrap in AnyView{}
 
 * [ ] KeyboardResponder
