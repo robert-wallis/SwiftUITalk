@@ -23,7 +23,7 @@ struct InferComplexType_Previews: PreviewProvider {
     }
 }
 
-/// # ORIGINAL PROBLEM ------------------------------------------
+// MARK: ORIGINAL PROBLEM
 //        ScrollView {
 //            ForEach(1...30, id: \.self) { i in
 //                if (i % 3) == 0 && (i % 5) == 0 {
@@ -38,7 +38,7 @@ struct InferComplexType_Previews: PreviewProvider {
 //            }
 //        }
 
-/// # COMPLEXITY TEXT MODIFIER ----------------------------------
+// MARK: COMPLEXITY TEXT MODIFIER
 //        ScrollView {
 //            ForEach(1...30, id: \.self) { i -> Text in
 //                if (i % 3) == 0 && (i % 5) == 0 {

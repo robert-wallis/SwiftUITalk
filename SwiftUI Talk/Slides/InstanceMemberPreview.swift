@@ -15,7 +15,7 @@ struct InstanceMemberView: View {
     }
 }
 
-/// SNEAKY ERROR BELOW!
+// MARK: SNEAKY ERROR
 //struct InstanceMemberView_Previews: PreviewProvider {
 //    let text = "Hi"
 //    static var previews: some View {
