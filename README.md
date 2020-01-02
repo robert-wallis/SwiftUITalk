@@ -26,7 +26,7 @@ Swift UI Talk for work, writtin in ... SwiftUI
 * [x] Q: 'Function declares an opaque return type, but the return statements in its body do not have matching underlying types'
     A: Wrap in AnyView{}
 
-* [ ] KeyboardResponder
+* [x] KeyboardResponder
 
 * [ ] ActionSheet class
 

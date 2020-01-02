@@ -23,6 +23,8 @@
 		E13E4DBA23BDC1EE00BB6CDE /* OpaqueReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */; };
 		E13E4DBB23BDC22800BB6CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102B9FB23BA851800FDE3BA /* Assets.xcassets */; };
 		E13E4DBD23BE5F5B00BB6CDE /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4DBC23BE5F5A00BB6CDE /* ResourcesView.swift */; };
+		E1DCBE6C23BE672600231A86 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6B23BE672600231A86 /* KeyboardResponder.swift */; };
+		E1DCBE6E23BE679300231A86 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6D23BE679300231A86 /* KeyboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		E13E4DA023BDC0C600BB6CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E13E4DA423BDC0CF00BB6CDE /* SwiftUI Talk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Talk.entitlements"; sourceTree = "<group>"; };
 		E13E4DBC23BE5F5A00BB6CDE /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		E1DCBE6B23BE672600231A86 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		E1DCBE6D23BE679300231A86 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */,
 				E102BA1523BAAED200FDE3BA /* InferComplexType.swift */,
 				E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */,
+				E1DCBE6D23BE679300231A86 /* KeyboardView.swift */,
 				E13E4DBC23BE5F5A00BB6CDE /* ResourcesView.swift */,
 			);
 			path = Slides;
@@ -100,6 +105,7 @@
 				E13E4DA423BDC0CF00BB6CDE /* SwiftUI Talk.entitlements */,
 				E13E4D9A23BDC0C600BB6CDE /* Preview Content */,
 				E13E4D9223BDC0C500BB6CDE /* AppDelegate.swift */,
+				E1DCBE6B23BE672600231A86 /* KeyboardResponder.swift */,
 				E13E4D9423BDC0C500BB6CDE /* SceneDelegate.swift */,
 				E102BA1F23BACA2600FDE3BA /* FakeError.swift */,
 				E102B9F923BA851700FDE3BA /* MainView.swift */,
@@ -191,12 +197,14 @@
 				E13E4DB723BDC1EE00BB6CDE /* ObservationsView.swift in Sources */,
 				E13E4DB823BDC1EE00BB6CDE /* InstanceMemberPreview.swift in Sources */,
 				E13E4DA923BDC1E800BB6CDE /* AppDelegate.swift in Sources */,
+				E1DCBE6E23BE679300231A86 /* KeyboardView.swift in Sources */,
 				E13E4DB923BDC1EE00BB6CDE /* InferComplexType.swift in Sources */,
 				E13E4DB523BDC1EE00BB6CDE /* InputView.swift in Sources */,
 				E13E4DAA23BDC1E800BB6CDE /* SceneDelegate.swift in Sources */,
 				E13E4DAC23BDC1E800BB6CDE /* MainView.swift in Sources */,
 				E13E4DB423BDC1EE00BB6CDE /* HelloView.swift in Sources */,
 				E13E4DBA23BDC1EE00BB6CDE /* OpaqueReturn.swift in Sources */,
+				E1DCBE6C23BE672600231A86 /* KeyboardResponder.swift in Sources */,
 				E13E4DAD23BDC1E800BB6CDE /* View+SwiftUITalk.swift in Sources */,
 				E13E4DB623BDC1EE00BB6CDE /* OtherBindings.swift in Sources */,
 				E13E4DBD23BE5F5B00BB6CDE /* ResourcesView.swift in Sources */,

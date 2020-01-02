@@ -73,6 +73,11 @@ class MainState: ObservableObject {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
     {AnyView(HStack{
+        KeyboardView()
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
+    {AnyView(HStack{
         ResourcesView()
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
