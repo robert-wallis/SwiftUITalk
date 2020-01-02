@@ -26,6 +26,7 @@
 		E1DCBE6C23BE672600231A86 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6B23BE672600231A86 /* KeyboardResponder.swift */; };
 		E1DCBE6E23BE679300231A86 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6D23BE679300231A86 /* KeyboardView.swift */; };
 		E1DCBE7023BE6CA900231A86 /* ListMoveCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6F23BE6CA900231A86 /* ListMoveCrash.swift */; };
+		E1DCBE7223BE77A500231A86 /* UnrelatedTypeErrorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE7123BE77A500231A86 /* UnrelatedTypeErrorsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		E1DCBE6B23BE672600231A86 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 		E1DCBE6D23BE679300231A86 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		E1DCBE6F23BE6CA900231A86 /* ListMoveCrash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoveCrash.swift; sourceTree = "<group>"; };
+		E1DCBE7123BE77A500231A86 /* UnrelatedTypeErrorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnrelatedTypeErrorsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				E102BA1323BAA8CD00FDE3BA /* OtherBindings.swift */,
 				E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */,
 				E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */,
+				E1DCBE7123BE77A500231A86 /* UnrelatedTypeErrorsView.swift */,
 				E102BA1523BAAED200FDE3BA /* InferComplexType.swift */,
 				E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */,
 				E1DCBE6F23BE6CA900231A86 /* ListMoveCrash.swift */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DCBE7223BE77A500231A86 /* UnrelatedTypeErrorsView.swift in Sources */,
 				E13E4DB723BDC1EE00BB6CDE /* ObservationsView.swift in Sources */,
 				E13E4DB823BDC1EE00BB6CDE /* InstanceMemberPreview.swift in Sources */,
 				E1DCBE7023BE6CA900231A86 /* ListMoveCrash.swift in Sources */,

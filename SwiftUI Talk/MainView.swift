@@ -61,6 +61,13 @@ class MainState: ObservableObject {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
     {AnyView(HStack{
+        Image("UnrelatedTypeErrors")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
+    {AnyView(HStack{
         InferComplexType()
             .font(.title)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
