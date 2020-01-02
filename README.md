@@ -14,18 +14,16 @@ Swift UI Talk for work, writtin in ... SwiftUI
 
 * [ ] ActionSheet class
 
-* [ ] Q: 'Int' is not convertable to 'CGFloat?'
-    A: too many items, 10+, put in Groups
-
 * [ ] XCode 11 bug:
     Rename File doesn't work
 
 # DONE
 
-* [x] Identifyable ForEach(items, id: \.id)
+* [x] Q: 'unable to infer complex type'
+A: Wrap in Group {}
 
-* [x] onMove crashes if Section{} inside.
-    Can't subclass ListStyle
+* [x] Q: 'Int' is not convertable to 'CGFloat?'
+A: too many items, 10+, put in Groups
 
 * [x] Q: Instance member 'x' cannot be used on type 'y_Preview'
     A: Didn't use `static` in the preview variable.
@@ -33,7 +31,9 @@ Swift UI Talk for work, writtin in ... SwiftUI
 * [x] Q: 'Function declares an opaque return type, but the return statements in its body do not have matching underlying types'
     A: Wrap in AnyView{}
 
-* [x] KeyboardResponder
+* [x] Identifyable ForEach(items, id: \.id)
 
-* [x] Q: 'unable to infer complex type'
-A: Wrap in Group {}
+* [x] onMove crashes if Section{} inside.
+    Can't subclass ListStyle
+
+* [x] KeyboardResponder
