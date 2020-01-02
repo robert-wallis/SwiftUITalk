@@ -3,10 +3,6 @@ Swift UI Talk for work, writtin in ... SwiftUI
 
 # TODO
 
-* [ ] Combine .print()
-
-* [ ] Combine .store(in: &Set<AnyCancellable>())
-
 * [ ] AnyView, someView
 
 * [ ] Q: 'The compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions'
@@ -18,6 +14,10 @@ Swift UI Talk for work, writtin in ... SwiftUI
     Rename File doesn't work
 
 # DONE
+
+* [x] Combine .print()
+
+* [x] Combine .store(in: &Set<AnyCancellable>())
 
 * [x] Q: 'unable to infer complex type'
 A: Wrap in Group {}

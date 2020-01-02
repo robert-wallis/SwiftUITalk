@@ -27,6 +27,7 @@
 		E1DCBE6E23BE679300231A86 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6D23BE679300231A86 /* KeyboardView.swift */; };
 		E1DCBE7023BE6CA900231A86 /* ListMoveCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6F23BE6CA900231A86 /* ListMoveCrash.swift */; };
 		E1DCBE7223BE77A500231A86 /* UnrelatedTypeErrorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE7123BE77A500231A86 /* UnrelatedTypeErrorsView.swift */; };
+		E1DCBE7423BE797A00231A86 /* CombineStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE7323BE797A00231A86 /* CombineStoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		E1DCBE6D23BE679300231A86 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		E1DCBE6F23BE6CA900231A86 /* ListMoveCrash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoveCrash.swift; sourceTree = "<group>"; };
 		E1DCBE7123BE77A500231A86 /* UnrelatedTypeErrorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnrelatedTypeErrorsView.swift; sourceTree = "<group>"; };
+		E1DCBE7323BE797A00231A86 /* CombineStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineStoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				E102BA0F23BAA3A200FDE3BA /* InputView.swift */,
 				E102BA1323BAA8CD00FDE3BA /* OtherBindings.swift */,
 				E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */,
+				E1DCBE7323BE797A00231A86 /* CombineStoreView.swift */,
 				E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */,
 				E1DCBE7123BE77A500231A86 /* UnrelatedTypeErrorsView.swift */,
 				E102BA1523BAAED200FDE3BA /* InferComplexType.swift */,
@@ -211,6 +214,7 @@
 				E13E4DAA23BDC1E800BB6CDE /* SceneDelegate.swift in Sources */,
 				E13E4DAC23BDC1E800BB6CDE /* MainView.swift in Sources */,
 				E13E4DB423BDC1EE00BB6CDE /* HelloView.swift in Sources */,
+				E1DCBE7423BE797A00231A86 /* CombineStoreView.swift in Sources */,
 				E13E4DBA23BDC1EE00BB6CDE /* OpaqueReturn.swift in Sources */,
 				E1DCBE6C23BE672600231A86 /* KeyboardResponder.swift in Sources */,
 				E13E4DAD23BDC1E800BB6CDE /* View+SwiftUITalk.swift in Sources */,

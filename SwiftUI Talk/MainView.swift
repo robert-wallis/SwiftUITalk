@@ -54,6 +54,20 @@ class MainState: ObservableObject {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
     {AnyView(HStack{
+        Image("CombineStore")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding()
+        CombineStoreView()
+            .font(.title)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
+    {AnyView(HStack{
+        CombineStoreView()
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
+    {AnyView(HStack{
         Image("InstanceMember")
             .resizable()
             .aspectRatio(contentMode: .fit)
