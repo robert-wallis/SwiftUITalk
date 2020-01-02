@@ -11,22 +11,11 @@ Swift UI Talk for work, writtin in ... SwiftUI
 
 * [ ] Identifyable ForEach(items, id: \.id)
 
-* [x] Q: Instance member 'x' cannot be used on type 'y_Preview'
-    A: Didn't use `static` in the preview variable.
-
 * [ ] onMove crashes if Section{} inside.
     Can't subclass ListStyle
 
-* [x] Q: 'unable to infer complex type'
-    A: Wrap in Group {}
-
 * [ ] Q: 'The compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions'
     A: put it in a func
-
-* [x] Q: 'Function declares an opaque return type, but the return statements in its body do not have matching underlying types'
-    A: Wrap in AnyView{}
-
-* [x] KeyboardResponder
 
 * [ ] ActionSheet class
 
@@ -35,3 +24,14 @@ Swift UI Talk for work, writtin in ... SwiftUI
 
 * [ ] XCode 11 bug:
     Rename File doesn't work
+
+* [x] Q: Instance member 'x' cannot be used on type 'y_Preview'
+    A: Didn't use `static` in the preview variable.
+
+* [x] Q: 'Function declares an opaque return type, but the return statements in its body do not have matching underlying types'
+    A: Wrap in AnyView{}
+
+* [x] KeyboardResponder
+
+* [x] Q: 'unable to infer complex type'
+A: Wrap in Group {}
