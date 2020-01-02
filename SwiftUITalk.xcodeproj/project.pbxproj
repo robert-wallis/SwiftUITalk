@@ -7,48 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E102B9F823BA851700FDE3BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102B9F723BA851700FDE3BA /* AppDelegate.swift */; };
-		E102B9FA23BA851700FDE3BA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102B9F923BA851700FDE3BA /* MainView.swift */; };
-		E102B9FC23BA851800FDE3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102B9FB23BA851800FDE3BA /* Assets.xcassets */; };
-		E102B9FF23BA851800FDE3BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102B9FE23BA851800FDE3BA /* Preview Assets.xcassets */; };
-		E102BA0223BA851800FDE3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102BA0023BA851800FDE3BA /* Main.storyboard */; };
-		E102BA0D23BA891D00FDE3BA /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA0C23BA891D00FDE3BA /* HelloView.swift */; };
-		E102BA1023BAA3A200FDE3BA /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA0F23BAA3A200FDE3BA /* InputView.swift */; };
-		E102BA1223BAA81800FDE3BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E102BA1123BAA81800FDE3BA /* README.md */; };
-		E102BA1423BAA8CD00FDE3BA /* OtherBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1323BAA8CD00FDE3BA /* OtherBindings.swift */; };
-		E102BA1623BAAED200FDE3BA /* InferComplexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1523BAAED200FDE3BA /* InferComplexType.swift */; };
-		E102BA1823BAB6FC00FDE3BA /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1723BAB6FC00FDE3BA /* VideoView.swift */; };
-		E102BA2023BACA2600FDE3BA /* FakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1F23BACA2600FDE3BA /* FakeError.swift */; };
-		E102BA2223BACF0E00FDE3BA /* View+SwiftUITalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */; };
-		E102BA2423BAD2B200FDE3BA /* ObservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */; };
-		E13E4D6823BDB7A200BB6CDE /* InstanceMemberPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */; };
-		E13E4D6A23BDBAB200BB6CDE /* OpaqueReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */; };
+		E13E4D9C23BDC0C600BB6CDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13E4D9B23BDC0C600BB6CDE /* Preview Assets.xcassets */; };
+		E13E4D9F23BDC0C600BB6CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13E4D9D23BDC0C600BB6CDE /* LaunchScreen.storyboard */; };
+		E13E4DA923BDC1E800BB6CDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D9223BDC0C500BB6CDE /* AppDelegate.swift */; };
+		E13E4DAA23BDC1E800BB6CDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D9423BDC0C500BB6CDE /* SceneDelegate.swift */; };
+		E13E4DAB23BDC1E800BB6CDE /* FakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1F23BACA2600FDE3BA /* FakeError.swift */; };
+		E13E4DAC23BDC1E800BB6CDE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102B9F923BA851700FDE3BA /* MainView.swift */; };
+		E13E4DAD23BDC1E800BB6CDE /* View+SwiftUITalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */; };
+		E13E4DB423BDC1EE00BB6CDE /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA0C23BA891D00FDE3BA /* HelloView.swift */; };
+		E13E4DB523BDC1EE00BB6CDE /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA0F23BAA3A200FDE3BA /* InputView.swift */; };
+		E13E4DB623BDC1EE00BB6CDE /* OtherBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1323BAA8CD00FDE3BA /* OtherBindings.swift */; };
+		E13E4DB723BDC1EE00BB6CDE /* ObservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */; };
+		E13E4DB823BDC1EE00BB6CDE /* InstanceMemberPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */; };
+		E13E4DB923BDC1EE00BB6CDE /* InferComplexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1523BAAED200FDE3BA /* InferComplexType.swift */; };
+		E13E4DBA23BDC1EE00BB6CDE /* OpaqueReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */; };
+		E13E4DBB23BDC22800BB6CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102B9FB23BA851800FDE3BA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E102B9F423BA851700FDE3BA /* SwiftUITalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E102B9F723BA851700FDE3BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E102B9F923BA851700FDE3BA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E102B9FB23BA851800FDE3BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E102B9FE23BA851800FDE3BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E102BA0123BA851800FDE3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E102BA0323BA851800FDE3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E102BA0423BA851800FDE3BA /* SwiftUITalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUITalk.entitlements; sourceTree = "<group>"; };
 		E102BA0C23BA891D00FDE3BA /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
 		E102BA0F23BAA3A200FDE3BA /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		E102BA1123BAA81800FDE3BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E102BA1323BAA8CD00FDE3BA /* OtherBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherBindings.swift; sourceTree = "<group>"; };
 		E102BA1523BAAED200FDE3BA /* InferComplexType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InferComplexType.swift; sourceTree = "<group>"; };
-		E102BA1723BAB6FC00FDE3BA /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		E102BA1F23BACA2600FDE3BA /* FakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeError.swift; sourceTree = "<group>"; };
 		E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SwiftUITalk.swift"; sourceTree = "<group>"; };
 		E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsView.swift; sourceTree = "<group>"; };
 		E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceMemberPreview.swift; sourceTree = "<group>"; };
 		E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpaqueReturn.swift; sourceTree = "<group>"; };
+		E13E4D9023BDC0C500BB6CDE /* SwiftUI Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13E4D9223BDC0C500BB6CDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E13E4D9423BDC0C500BB6CDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E13E4D9B23BDC0C600BB6CDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E13E4D9E23BDC0C600BB6CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E13E4DA023BDC0C600BB6CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E13E4DA423BDC0CF00BB6CDE /* SwiftUI Talk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Talk.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E102B9F123BA851700FDE3BA /* Frameworks */ = {
+		E13E4D8D23BDC0C500BB6CDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				E102BA1123BAA81800FDE3BA /* README.md */,
-				E102B9F623BA851700FDE3BA /* SwiftUITalk */,
+				E13E4D9123BDC0C500BB6CDE /* SwiftUI Talk */,
 				E102B9F523BA851700FDE3BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,35 +69,9 @@
 		E102B9F523BA851700FDE3BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E102B9F423BA851700FDE3BA /* SwiftUITalk.app */,
+				E13E4D9023BDC0C500BB6CDE /* SwiftUI Talk.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E102B9F623BA851700FDE3BA /* SwiftUITalk */ = {
-			isa = PBXGroup;
-			children = (
-				E102BA0E23BAA38A00FDE3BA /* Slides */,
-				E102B9F723BA851700FDE3BA /* AppDelegate.swift */,
-				E102BA1F23BACA2600FDE3BA /* FakeError.swift */,
-				E102B9F923BA851700FDE3BA /* MainView.swift */,
-				E102BA1723BAB6FC00FDE3BA /* VideoView.swift */,
-				E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */,
-				E102B9FB23BA851800FDE3BA /* Assets.xcassets */,
-				E102BA0023BA851800FDE3BA /* Main.storyboard */,
-				E102BA0323BA851800FDE3BA /* Info.plist */,
-				E102BA0423BA851800FDE3BA /* SwiftUITalk.entitlements */,
-				E102B9FD23BA851800FDE3BA /* Preview Content */,
-			);
-			path = SwiftUITalk;
-			sourceTree = "<group>";
-		};
-		E102B9FD23BA851800FDE3BA /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E102B9FE23BA851800FDE3BA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		E102BA0E23BAA38A00FDE3BA /* Slides */ = {
@@ -115,24 +88,50 @@
 			path = Slides;
 			sourceTree = "<group>";
 		};
+		E13E4D9123BDC0C500BB6CDE /* SwiftUI Talk */ = {
+			isa = PBXGroup;
+			children = (
+				E102B9FB23BA851800FDE3BA /* Assets.xcassets */,
+				E13E4DA023BDC0C600BB6CDE /* Info.plist */,
+				E13E4D9D23BDC0C600BB6CDE /* LaunchScreen.storyboard */,
+				E13E4DA423BDC0CF00BB6CDE /* SwiftUI Talk.entitlements */,
+				E13E4D9A23BDC0C600BB6CDE /* Preview Content */,
+				E13E4D9223BDC0C500BB6CDE /* AppDelegate.swift */,
+				E13E4D9423BDC0C500BB6CDE /* SceneDelegate.swift */,
+				E102BA1F23BACA2600FDE3BA /* FakeError.swift */,
+				E102B9F923BA851700FDE3BA /* MainView.swift */,
+				E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */,
+				E102BA0E23BAA38A00FDE3BA /* Slides */,
+			);
+			path = "SwiftUI Talk";
+			sourceTree = "<group>";
+		};
+		E13E4D9A23BDC0C600BB6CDE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E13E4D9B23BDC0C600BB6CDE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E102B9F323BA851700FDE3BA /* SwiftUITalk */ = {
+		E13E4D8F23BDC0C500BB6CDE /* SwiftUI Talk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E102BA0723BA851800FDE3BA /* Build configuration list for PBXNativeTarget "SwiftUITalk" */;
+			buildConfigurationList = E13E4DA123BDC0C600BB6CDE /* Build configuration list for PBXNativeTarget "SwiftUI Talk" */;
 			buildPhases = (
-				E102B9F023BA851700FDE3BA /* Sources */,
-				E102B9F123BA851700FDE3BA /* Frameworks */,
-				E102B9F223BA851700FDE3BA /* Resources */,
+				E13E4D8C23BDC0C500BB6CDE /* Sources */,
+				E13E4D8D23BDC0C500BB6CDE /* Frameworks */,
+				E13E4D8E23BDC0C500BB6CDE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUITalk;
-			productName = SwiftUITalk;
-			productReference = E102B9F423BA851700FDE3BA /* SwiftUITalk.app */;
+			name = "SwiftUI Talk";
+			productName = "SwiftUI Talk";
+			productReference = E13E4D9023BDC0C500BB6CDE /* SwiftUI Talk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +144,7 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Robert Wallis";
 				TargetAttributes = {
-					E102B9F323BA851700FDE3BA = {
+					E13E4D8F23BDC0C500BB6CDE = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -163,54 +162,53 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E102B9F323BA851700FDE3BA /* SwiftUITalk */,
+				E13E4D8F23BDC0C500BB6CDE /* SwiftUI Talk */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E102B9F223BA851700FDE3BA /* Resources */ = {
+		E13E4D8E23BDC0C500BB6CDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E102BA0223BA851800FDE3BA /* Main.storyboard in Resources */,
-				E102B9FF23BA851800FDE3BA /* Preview Assets.xcassets in Resources */,
-				E102BA1223BAA81800FDE3BA /* README.md in Resources */,
-				E102B9FC23BA851800FDE3BA /* Assets.xcassets in Resources */,
+				E13E4D9F23BDC0C600BB6CDE /* LaunchScreen.storyboard in Resources */,
+				E13E4DBB23BDC22800BB6CDE /* Assets.xcassets in Resources */,
+				E13E4D9C23BDC0C600BB6CDE /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E102B9F023BA851700FDE3BA /* Sources */ = {
+		E13E4D8C23BDC0C500BB6CDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E102BA1423BAA8CD00FDE3BA /* OtherBindings.swift in Sources */,
-				E102BA2423BAD2B200FDE3BA /* ObservationsView.swift in Sources */,
-				E102BA1823BAB6FC00FDE3BA /* VideoView.swift in Sources */,
-				E102BA0D23BA891D00FDE3BA /* HelloView.swift in Sources */,
-				E102BA2023BACA2600FDE3BA /* FakeError.swift in Sources */,
-				E102BA1023BAA3A200FDE3BA /* InputView.swift in Sources */,
-				E102B9FA23BA851700FDE3BA /* MainView.swift in Sources */,
-				E102BA1623BAAED200FDE3BA /* InferComplexType.swift in Sources */,
-				E13E4D6A23BDBAB200BB6CDE /* OpaqueReturn.swift in Sources */,
-				E102BA2223BACF0E00FDE3BA /* View+SwiftUITalk.swift in Sources */,
-				E102B9F823BA851700FDE3BA /* AppDelegate.swift in Sources */,
-				E13E4D6823BDB7A200BB6CDE /* InstanceMemberPreview.swift in Sources */,
+				E13E4DB723BDC1EE00BB6CDE /* ObservationsView.swift in Sources */,
+				E13E4DB823BDC1EE00BB6CDE /* InstanceMemberPreview.swift in Sources */,
+				E13E4DA923BDC1E800BB6CDE /* AppDelegate.swift in Sources */,
+				E13E4DB923BDC1EE00BB6CDE /* InferComplexType.swift in Sources */,
+				E13E4DB523BDC1EE00BB6CDE /* InputView.swift in Sources */,
+				E13E4DAA23BDC1E800BB6CDE /* SceneDelegate.swift in Sources */,
+				E13E4DAC23BDC1E800BB6CDE /* MainView.swift in Sources */,
+				E13E4DB423BDC1EE00BB6CDE /* HelloView.swift in Sources */,
+				E13E4DBA23BDC1EE00BB6CDE /* OpaqueReturn.swift in Sources */,
+				E13E4DAD23BDC1E800BB6CDE /* View+SwiftUITalk.swift in Sources */,
+				E13E4DB623BDC1EE00BB6CDE /* OtherBindings.swift in Sources */,
+				E13E4DAB23BDC1E800BB6CDE /* FakeError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E102BA0023BA851800FDE3BA /* Main.storyboard */ = {
+		E13E4D9D23BDC0C600BB6CDE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E102BA0123BA851800FDE3BA /* Base */,
+				E13E4D9E23BDC0C600BB6CDE /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -329,49 +327,54 @@
 			};
 			name = Release;
 		};
-		E102BA0823BA851800FDE3BA /* Debug */ = {
+		E13E4DA223BDC0C600BB6CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SwiftUITalk/SwiftUITalk.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Talk/SwiftUI Talk.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITalk/Preview Content\"";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Talk/Preview Content\"";
 				DEVELOPMENT_TEAM = N7KJAM482Z;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUITalk/Info.plist;
+				INFOPLIST_FILE = "SwiftUI Talk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smilingrob.SwiftUITalk;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smilingrob.SwiftUI-Talk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E102BA0923BA851800FDE3BA /* Release */ = {
+		E13E4DA323BDC0C600BB6CDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SwiftUITalk/SwiftUITalk.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Talk/SwiftUI Talk.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITalk/Preview Content\"";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Talk/Preview Content\"";
 				DEVELOPMENT_TEAM = N7KJAM482Z;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUITalk/Info.plist;
+				INFOPLIST_FILE = "SwiftUI Talk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smilingrob.SwiftUITalk;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smilingrob.SwiftUI-Talk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -387,11 +390,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E102BA0723BA851800FDE3BA /* Build configuration list for PBXNativeTarget "SwiftUITalk" */ = {
+		E13E4DA123BDC0C600BB6CDE /* Build configuration list for PBXNativeTarget "SwiftUI Talk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E102BA0823BA851800FDE3BA /* Debug */,
-				E102BA0923BA851800FDE3BA /* Release */,
+				E13E4DA223BDC0C600BB6CDE /* Debug */,
+				E13E4DA323BDC0C600BB6CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
