@@ -1,18 +1,13 @@
 # SwiftUI `unable to infer complex talk`
 Swift UI Talk for work, writtin in ... SwiftUI
 
-# TODO:
+# TODO
 
 * [ ] Combine .print()
 
 * [ ] Combine .store(in: &Set<AnyCancellable>())
 
 * [ ] AnyView, someView
-
-* [ ] Identifyable ForEach(items, id: \.id)
-
-* [ ] onMove crashes if Section{} inside.
-    Can't subclass ListStyle
 
 * [ ] Q: 'The compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions'
     A: put it in a func
@@ -24,6 +19,13 @@ Swift UI Talk for work, writtin in ... SwiftUI
 
 * [ ] XCode 11 bug:
     Rename File doesn't work
+
+# DONE
+
+* [x] Identifyable ForEach(items, id: \.id)
+
+* [x] onMove crashes if Section{} inside.
+    Can't subclass ListStyle
 
 * [x] Q: Instance member 'x' cannot be used on type 'y_Preview'
     A: Didn't use `static` in the preview variable.
