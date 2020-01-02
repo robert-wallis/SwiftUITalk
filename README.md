@@ -9,7 +9,7 @@ Swift UI Talk for work, writtin in ... SwiftUI
 
 * [ ] AnyView, someView
 
-* [ ] Q: Instance member 'x' cannot be used on type 'y_Preview'
+* [x] Q: Instance member 'x' cannot be used on type 'y_Preview'
     A: Didn't use `static` in the preview variable.
 
 * [ ] onMove crashes if Section{} inside.
