@@ -72,6 +72,11 @@ class MainState: ObservableObject {
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
+    {AnyView(HStack{
+        ResourcesView()
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
     ]
 
     @Published var currentView = 0

@@ -9,6 +9,8 @@ Swift UI Talk for work, writtin in ... SwiftUI
 
 * [ ] AnyView, someView
 
+* [ ] Identifyable ForEach(items, id: \.id)
+
 * [x] Q: Instance member 'x' cannot be used on type 'y_Preview'
     A: Didn't use `static` in the preview variable.
 

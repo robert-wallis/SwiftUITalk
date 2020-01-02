@@ -22,6 +22,7 @@
 		E13E4DB923BDC1EE00BB6CDE /* InferComplexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1523BAAED200FDE3BA /* InferComplexType.swift */; };
 		E13E4DBA23BDC1EE00BB6CDE /* OpaqueReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */; };
 		E13E4DBB23BDC22800BB6CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102B9FB23BA851800FDE3BA /* Assets.xcassets */; };
+		E13E4DBD23BE5F5B00BB6CDE /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4DBC23BE5F5A00BB6CDE /* ResourcesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E13E4D9E23BDC0C600BB6CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E13E4DA023BDC0C600BB6CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E13E4DA423BDC0CF00BB6CDE /* SwiftUI Talk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Talk.entitlements"; sourceTree = "<group>"; };
+		E13E4DBC23BE5F5A00BB6CDE /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */,
 				E102BA1523BAAED200FDE3BA /* InferComplexType.swift */,
 				E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */,
+				E13E4DBC23BE5F5A00BB6CDE /* ResourcesView.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				E13E4DBA23BDC1EE00BB6CDE /* OpaqueReturn.swift in Sources */,
 				E13E4DAD23BDC1E800BB6CDE /* View+SwiftUITalk.swift in Sources */,
 				E13E4DB623BDC1EE00BB6CDE /* OtherBindings.swift in Sources */,
+				E13E4DBD23BE5F5B00BB6CDE /* ResourcesView.swift in Sources */,
 				E13E4DAB23BDC1E800BB6CDE /* FakeError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
