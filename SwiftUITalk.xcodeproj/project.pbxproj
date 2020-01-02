@@ -25,6 +25,7 @@
 		E13E4DBD23BE5F5B00BB6CDE /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E4DBC23BE5F5A00BB6CDE /* ResourcesView.swift */; };
 		E1DCBE6C23BE672600231A86 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6B23BE672600231A86 /* KeyboardResponder.swift */; };
 		E1DCBE6E23BE679300231A86 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6D23BE679300231A86 /* KeyboardView.swift */; };
+		E1DCBE7023BE6CA900231A86 /* ListMoveCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBE6F23BE6CA900231A86 /* ListMoveCrash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		E13E4DBC23BE5F5A00BB6CDE /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
 		E1DCBE6B23BE672600231A86 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 		E1DCBE6D23BE679300231A86 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		E1DCBE6F23BE6CA900231A86 /* ListMoveCrash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMoveCrash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				E13E4D6723BDB7A200BB6CDE /* InstanceMemberPreview.swift */,
 				E102BA1523BAAED200FDE3BA /* InferComplexType.swift */,
 				E13E4D6923BDBAB200BB6CDE /* OpaqueReturn.swift */,
+				E1DCBE6F23BE6CA900231A86 /* ListMoveCrash.swift */,
 				E1DCBE6D23BE679300231A86 /* KeyboardView.swift */,
 				E13E4DBC23BE5F5A00BB6CDE /* ResourcesView.swift */,
 			);
@@ -196,6 +199,7 @@
 			files = (
 				E13E4DB723BDC1EE00BB6CDE /* ObservationsView.swift in Sources */,
 				E13E4DB823BDC1EE00BB6CDE /* InstanceMemberPreview.swift in Sources */,
+				E1DCBE7023BE6CA900231A86 /* ListMoveCrash.swift in Sources */,
 				E13E4DA923BDC1E800BB6CDE /* AppDelegate.swift in Sources */,
 				E1DCBE6E23BE679300231A86 /* KeyboardView.swift in Sources */,
 				E13E4DB923BDC1EE00BB6CDE /* InferComplexType.swift in Sources */,

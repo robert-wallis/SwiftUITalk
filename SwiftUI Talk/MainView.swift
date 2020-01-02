@@ -73,6 +73,15 @@ class MainState: ObservableObject {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
     {AnyView(HStack{
+        Image("ListMoveCrash")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding()
+        ListMoveCrash()
+            .font(.title)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
+    {AnyView(HStack{
         KeyboardView()
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
