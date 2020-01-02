@@ -20,6 +20,7 @@
 		E102BA1823BAB6FC00FDE3BA /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1723BAB6FC00FDE3BA /* VideoView.swift */; };
 		E102BA2023BACA2600FDE3BA /* FakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA1F23BACA2600FDE3BA /* FakeError.swift */; };
 		E102BA2223BACF0E00FDE3BA /* View+SwiftUITalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */; };
+		E102BA2423BAD2B200FDE3BA /* ObservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E102BA1723BAB6FC00FDE3BA /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		E102BA1F23BACA2600FDE3BA /* FakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeError.swift; sourceTree = "<group>"; };
 		E102BA2123BACF0E00FDE3BA /* View+SwiftUITalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SwiftUITalk.swift"; sourceTree = "<group>"; };
+		E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E102BA0F23BAA3A200FDE3BA /* InputView.swift */,
 				E102BA1323BAA8CD00FDE3BA /* OtherBindings.swift */,
 				E102BA1523BAAED200FDE3BA /* InferComplexType.swift */,
+				E102BA2323BAD2B200FDE3BA /* ObservationsView.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E102BA1423BAA8CD00FDE3BA /* OtherBindings.swift in Sources */,
+				E102BA2423BAD2B200FDE3BA /* ObservationsView.swift in Sources */,
 				E102BA1823BAB6FC00FDE3BA /* VideoView.swift in Sources */,
 				E102BA0D23BA891D00FDE3BA /* HelloView.swift in Sources */,
 				E102BA2023BACA2600FDE3BA /* FakeError.swift in Sources */,

@@ -15,7 +15,7 @@ Swift UI Talk for work, writtin in ... SwiftUI
 * [ ] onMove crashes if Section{} inside.
     Can't subclass ListStyle
 
-* [ ] Q: 'unable to infer complex type'
+* [x] Q: 'unable to infer complex type'
     A: Wrap in Group {}
 
 * [ ] Q: 'The compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions'

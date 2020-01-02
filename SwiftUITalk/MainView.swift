@@ -8,10 +8,8 @@
 
 import SwiftUI
 
-struct MainView: View {
-
+class MainState: ObservableObject {
     typealias ViewFactory = () -> AnyView
-
     let slides:[ViewFactory] = [
     {AnyView(VStack {
         FakeError(text: "Unable to infer complex talk").font(.largeTitle)
@@ -47,35 +45,53 @@ struct MainView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
     {AnyView(HStack{
+        Image("ObservationsView")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding()
+        ObservationsView()
+            .font(.title)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+    })},
+    {AnyView(HStack{
         InferComplexType()
             .font(.title)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     })},
     ]
-    @State var currentView = 0
+
+    @Published var currentView = 0
+
+    func next() {
+        self.currentView = (self.currentView + 1) % self.slides.count
+    }
+
+    func back() {
+        let slide =
+            (self.currentView - 1) % self.slides.count
+        if slide < 0 { // really swift? this should not happen
+            self.currentView = self.slides.count + slide
+        } else {
+            self.currentView = slide
+        }
+    }
+}
+
+struct MainView: View {
+
+    @ObservedObject var state: MainState = MainState()
 
     var body: some View {
         ZStack {
-            slides[currentView]()
+            state.slides[state.currentView]()
                 .frame(minWidth: 768, maxWidth: .infinity,
                        minHeight: 512, maxHeight: .infinity)
             VStack {
                 Spacer()
                 HStack {
                     Spacer()
-                    Button("back", action: {
-                        let slide =
-                            (self.currentView - 1) % self.slides.count
-                        if slide < 0 { // really swift? this should not happen
-                            self.currentView = self.slides.count + slide
-                        } else {
-                            self.currentView = slide
-                        }
-                    })
-                    Button("next", action: {
-                        self.currentView =
-                            (self.currentView + 1) % self.slides.count
-                    })
+                    Button("back", action: state.back)
+                    Button("next", action: state.next)
                 }
             }
         }
