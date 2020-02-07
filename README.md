@@ -12,6 +12,8 @@ Swift UI Talk for work, writtin in ... SwiftUI
 
 * [ ] XCode 11 bug:
     Rename File doesn't work
+    
+* [ ] Only one Alert in the whole view heirarechy, including siblings.
 
 # DONE
 
